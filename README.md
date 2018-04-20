@@ -24,6 +24,13 @@ project.dependencies.add("compile", project.project(':' + str))，就是类似co
 使用带":"的完整路径，将使用project.dependencies.add("compile", str + "-release@aar")，即引用arr文件的方式引入。这样的好处在原作者的文章里
 有说明。
 
+三、build-gradle打包发布在本地
+
+具体查看build-gradle的build-gradle最后的代码，当然还得在Project的build-gradle里加上本地maven地址。
+
+ maven {
+    url uri('./repo')
+}
 
 
 
