@@ -6,10 +6,15 @@ Android组件化方案(copy from JIMU)
 使用时，参考readcomponent即可。
 
 一·Module直接的依赖关系如下：
+
 componentservice-->basicres-->basiclib
+
 app-->componentservice
+
 readcomponent-->componentservice
+
 sharecomponent-->componentservice
+
 
 
 
